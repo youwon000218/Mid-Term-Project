@@ -11,13 +11,24 @@
             .introPosition > span{
                 width:100%;
                 height: 400px;
-                margin: 40px;
+                margin-left: 645px;
+                margin-bottom: 5px;
                 background-color: black;
-                padding-bottom: 10px;
+                padding: 10px;
                 color:white;
             }
+            .imagePosition > span:first-child{
+                position: relative;
+                top: 15px;
+                left: 450px;
+            }
+            .imagePosition > span:last-child{
+                position: relative;
+                top: 15px;
+                left: 550px;
+            }
             .introPosition > ul{
-                margin-left: 250px;
+                position: relative;
                 background-color: white;
                 color:black;
                 padding: 30px;
@@ -31,26 +42,52 @@
                 background-color: black;
                 color:white;
             }
+            .pastImgPosition > span:first-child{
+                position: relative;
+                top: 15px;
+                left: 450px;
+            }
+            .pastImgPosition > span:last-child{
+                position: relative;
+                top: 15px;
+                left: 550px;
+            }
             .historyPosition > ul{
-                margin-left: 250px;
                 background-color: white;
                 color:black;
                 padding: 30px;
             }
             .hobbyPosition{
                 width:100%;
-                height: 1350px;
+                height: 900px;
                 background-color:pink;
             }
             .hobbyPosition > span{
                 background-color: black;
                 color:white;
             }
-            .hobbyPosition > ul > li{
+            .hobbyPosition > div > span{
+                position: relative;
+                left: 100px;
                 display: inline;
-                background-color: white;
+                background-color:lightcoral;
                 color:black;
             }
+            .hobbyPosition > div > ol{
+                position: relative;
+                left: 150px;
+            }
+            .videoPosition > span:first-child{
+                position: relative;
+                left: 250px;
+                top: -180px;
+            }
+            .videoPosition > span:last-child{
+                position: relative;
+                left: 250px;
+                top: -40px;
+            }
+
             .schedulePosition{
                 width:100%;
                 height: 400px;
@@ -82,8 +119,13 @@
         </style>
         <div class="introPosition">
             <span>신유원을 소개합니다!</span>
-            <div>
-                <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img.jpg", width= "270", height="400">
+            <div class ="imagePosition">
+                <span>
+                    <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img.jpg", width= "270", height="400">
+                </span>
+                <span>
+                    <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img.jpg", width= "270", height="400">
+                </span>
             </div> 
             <ul>
                 <li> 이름 : 신유원</li>
@@ -95,9 +137,14 @@
         </div>
         <div class="historyPosition">
             <span>과거</span>
-            <div>
-                <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img2.jpg", width= "200", height="300">
-            </div> 
+            <div class ="pastImgPosition">
+                <span>
+                    <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img2.jpg", width= "270", height="400">
+                </span>
+                <span>
+                    <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\img.jpg", width= "270", height="400">
+                </span>
+            </div>
             <ul>
                 <li> 생일 : 2000년 02월 18일</li>
                 <li> 일산에서 태어남</li>
@@ -106,30 +153,32 @@
         </div>
         <div class="hobbyPosition">
             <span>취미</span>
-            <ul>
-                <li>1. 친구들과 인생네컷 찍기</li>
-                <div>
-                    <video autoplay controls loop preload="auto">
-                        <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video1.mp4",type="video/mp4">
-                        zzz
-                    </video>
+            <div>
+                <span>1. 친구들과 인생네컷 찍기</span>
+                <div class ="videoPosition">
+                    <span>
+                        <video autoplay controls loop preload="auto">
+                            <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video1.mp4",type="video/mp4">
+                            zzz
+                        </video>
+                    </span>
+                    <span>
+                        <video autoplay controls preload="auto">
+                            <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video2.mp4",type="video/mp4">
+                            zzz
+                        </video>
+                    </span>
                 </div>
-                <div>
-                    <video autoplay controls preload="auto">
-                        <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video2.mp4",type="video/mp4">
-                        zzz
-                    </video>
-                </div>
-                <li>2. 웹툰보기</li>
+            </div>
+
+            <div>
+                <span>2. 웹툰 보기</span>
                 <ol>
-                    <span>- 가장 재미있게 본 웹툰 3가지</span>
-                    <ol>
-                        <li>치즈인더트랩</li>
-                        <li>나혼자만 레벨업</li>
-                        <li>죽음에 관하여</li>
-                    </ol>
+                    <li>치즈인더트랩</li>
+                    <li>나혼자만 레벨업</li>
+                    <li>죽음에 관하여</li>
                 </ol>
-            </ul>
+            </div>
         </div>
         <div class="schedulePosition">
             <span>schedule</span>
