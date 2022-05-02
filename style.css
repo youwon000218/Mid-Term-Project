@@ -140,7 +140,7 @@
 .scheduleImgPosition >div> table{
     margin-top: 20px;
     margin-left: 250px;
-    border: 1.5px solid coral;
+    border: 1.5px solid lightcoral;
     border-collapse: collapse;
 }
 .scheduleImgPosition >div> table > thead > tr > th{
