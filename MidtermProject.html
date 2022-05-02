@@ -1,130 +1,11 @@
 <!doctype html>
 <html lang="ko">
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Midterm</title>
     </head>
     <body>
-        <style>
-            .introPosition{
-                background-color: pink;
-            }
-            .introPosition > span{
-                width:100%;
-                height: 400px;
-                margin-left: 645px;
-                margin-bottom: 5px;
-                background-color: black;
-                padding: 10px;
-                color:white;
-            }
-            .imagePosition > span{
-                position: relative;
-                top: 15px;
-                left: 450px;
-            }
-            .introPosition > ul{
-                position: relative;
-                background-color: white;
-                color:black;
-                padding: 30px;
-            }
-            .historyPosition{
-                background-color:rgb(249, 168, 180);
-            }
-            .historyPosition > span{
-                width:100%;
-                height: 400px;
-                background-color: black;
-                color:white;
-            }
-            .pastImgPosition > span{
-                position: relative;
-                top: 15px;
-                left: 450px;
-            }
-            .historyPosition > ul{
-                background-color: white;
-                color:black;
-                padding: 30px;
-            }
-            .hobbyPosition{
-                width:100%;
-                height: 1300px;
-                background-color:pink;
-            }
-            .hobbyPosition > span{
-                background-color: black;
-                color:white;
-            }
-            .hobbyPosition > div > span{
-                position: relative;
-                left: 100px;
-                display: inline;
-                background-color:lightcoral;
-                color:black;
-            }
-            .hobbyPosition > div > ol{
-                position: relative;
-                left: 150px;
-            }
-            .videoPosition > span:first-child{
-                position: relative;
-                left: 250px;
-                top: -180px;
-            }
-            .videoPosition > span:last-child{
-                position: relative;
-                left: 250px;
-                top: -40px;
-            }
-
-            .schedulePosition{
-                width:100%;
-                height: 450px;
-                background-color: rgb(249, 168, 180);
-            }
-            .schedulePosition > span:first-child{
-                background-color: black;
-                color:white;
-            }
-            .scheduleImgPosition > span:first-child{
-                position: relative;
-                top: 20px;
-                left: 100px;
-            }
-            .scheduleImgPosition > span:last-child{
-                position: relative;
-                left: 150px;
-                top: -250px;
-            }
-            .scheduleImgPosition >span> table{
-                margin-top: 20px;
-                margin-left: 250px;
-                border: 1px solid black;
-                border-collapse: collapse;
-            }
-            .scheduleImgPosition >span> table > thead > tr > th{
-                border: 1px solid gray;
-                background: mistyrose;
-            }
-            .scheduleImgPosition >span> table > tbody > tr > td{
-                border: 1px solid gray;
-                background:ghostwhite;
-            }
-            .mbtiPosition{
-                width:100%;
-                height: 900px;
-                background-color:lightcyan;
-            }
-            .mbtiPosition > span{
-                position: relative;
-                left: 630px;
-            }
-            .mbtiPosition > div:last-child{
-                margin-left: 600;
-                background-color:white;
-            }
-        </style>
         <div class="introPosition">
             <span>신유원을 소개합니다!</span>
             <div class ="imagePosition">
@@ -159,34 +40,28 @@
                 <li> 11살 차이나는 오빠가 있음</li>
             </ul>
         </div>
+
         <div class="hobbyPosition">
             <span>취미</span>
             <div>
                 <span>1. 친구들과 인생네컷 찍기</span>
                 <div class ="videoPosition">
-                    <span>
-                        <video autoplay controls loop preload="auto">
-                            <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video1.mp4",type="video/mp4">
-                            zzz
-                        </video>
-                    </span>
-                    <span>
-                        <video autoplay controls preload="auto">
-                            <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video2.mp4",type="video/mp4">
-                            zzz
-                        </video>
-                    </span>
+                    <video autoplay controls preload="auto">
+                        <source src="C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\video2.mp4",type="video/mp4">
+                        zzz
+                    </video>
                 </div>
             </div>
 
             <div>
                 <span>2. 웹툰 보기</span>
                 <ol>
-                    <li>치즈인더트랩</li>
-                    <li>나혼자만 레벨업</li>
-                    <li>신의탑</li>
+                    <li>1.치즈인더트랩</li>
+                    <li>2.나혼자만 레벨업</li>
+                    <li>3.신의탑</li>
                 </ol>
-                <span>
+                <div class="webtoonPosition">
+                    <span>
                     <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\hobby_img1.jpg", width= "270", height="350">
                 </span>
                 <span>
@@ -195,6 +70,7 @@
                 <span>
                     <img src= "C:\Users\82103\OneDrive\바탕 화면\40_32202397_신유원\Mid-Term-Project\hobby_img3.jpg", width= "270", height="350">
                 </span>
+                </div>
             </div>
         </div>
         <div class="schedulePosition">
