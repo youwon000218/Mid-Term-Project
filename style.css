@@ -7,19 +7,15 @@
     padding: 0px;
     color: #000;
 }
-/* .intro_bg{
-    background-image: url("");
-    width:cover;
-    height: 400;
-} */
 .introPosition{
     background-color: whitesmoke;
 }
 .introPosition > span{
     width:100%;
     height: 400px;
-    margin-left: 645px;
-    margin-bottom: 5px;
+    font-size: 1.5em;
+    margin-left: 650px;
+    margin-bottom: 10px;
     background-color: black;
     padding: 10px;
     color:white;
@@ -32,16 +28,24 @@
 }
 .introPosition > ul{
     position: relative;
+    top: 30px;
+    margin-left: 460px;
+    margin-right: 410px;
+    font-size: 1.2em;
+    text-align: center;
     background-color: white;
     color:black;
-    padding: 30px;
+    padding: 50px;
 }
 .historyPosition{
     background-color:whitesmoke;
 }
 .historyPosition > span{
+    position: relative;
+    top: 50px;
     width:100%;
     height: 400px;
+    font-size: 1.5em;
     background-color: black;
     color:white;
 }
@@ -51,72 +55,99 @@
     margin: 10px;
 }
 .historyPosition > ul{
+    position: relative;
+    top: 30px;
+    margin-left: 460px;
+    margin-right: 450px;
+    font-size: 1.2em;
+    text-align: center;
     background-color: white;
     color:black;
-    padding: 30px;
+    padding: 50px;
 }
 .hobbyPosition{
     width:100%;
-    height: 1300px;
+    height: 1500px;
     background-color:whitesmoke;
 }
 .hobbyPosition > span{
+    position: relative;
+    top: 50px;
+    font-size: 1.5em;
     background-color: black;
     color:white;
 }
 .hobbyPosition > div > span{
     position: relative;
-    left: 630px;
+    top: 60px;
+    left: 610px;
     margin-top: 50px;
+    font-size: 1.2em;
     display: inline;
     background-color:pink;
     color:black;
 }
 .hobbyPosition > div > ol{
     position: relative;
-    left: 600px;
+    display: inline-block;
+    top: 70px;
+    left: 650px;
+    background-color: white;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 .webtoonPosition{
     position: relative;
+    top: 80px;
     left: 320px;
 }
 .videoPosition{
     position: relative;
-    left: 600px;
+    top: 65px;
+    left: 620px;
 }
 
 .schedulePosition{
     width:100%;
-    height: 450px;
+    height: 600px;
     background-color: pink;
 }
 .schedulePosition > span:first-child{
+    font-size: 1.5em;
     background-color: black;
     color:white;
 }
-.scheduleImgPosition > span:first-child{
+.schedule{
+    position: relative;
+    top: 10px;
+    font-size: 1.1em;
+    text-align: center; 
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 1100px;
+}
+.scheduleImgPosition > div:first-child{
     position: relative;
     top: 20px;
     left: 100px;
 }
-.scheduleImgPosition > span:last-child{
+.scheduleImgPosition > div:last-child{
     position: relative;
-    left: 150px;
-    top: -250px;
+    left: 200px;
+    top: -500px;
 }
-.scheduleImgPosition >span> table{
+.scheduleImgPosition >div> table{
     margin-top: 20px;
     margin-left: 250px;
-    border: 1px solid black;
+    border: 1.5px solid coral;
     border-collapse: collapse;
 }
-.scheduleImgPosition >span> table > thead > tr > th{
+.scheduleImgPosition >div> table > thead > tr > th{
     border: 1px solid gray;
     background: mistyrose;
 }
-.scheduleImgPosition >span> table > tbody > tr > td{
+.scheduleImgPosition >div> table > tbody > tr > td{
     border: 1px solid gray;
     background:ghostwhite;
 }
