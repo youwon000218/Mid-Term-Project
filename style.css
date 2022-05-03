@@ -183,7 +183,7 @@
 }
 .mbtiPosition{
     width:100%;
-    height: 1000px;
+    height: 1200px;
     background-color:lightcyan;
 }
 .mbtiPosition > span:first-child{
@@ -195,7 +195,7 @@
 }
 .istpimg{
     position: relative;
-    left: 400px;
+    left: 380px;
     top: 20px;
 }
 .mbtiPosition>ul>li{
@@ -215,6 +215,8 @@
     text-align: center;
     top: 20px;
     margin-top: 15px;
+    margin-left: 460px;
+    margin-right: 450px;
     background-color:white;
     padding: 20px;
 }
