@@ -140,7 +140,7 @@
 .scheduleImgPosition >div> table{
     margin-top: 20px;
     margin-left: 250px;
-    border: 1.5px solid lightcoral;
+    border: 2.5px solid lightcoral;
     border-collapse: collapse;
 }
 .scheduleImgPosition >div> table > thead > tr > th{
@@ -161,9 +161,25 @@
     top: -440px;
     left: 500px;
     text-align: center; 
-    background-color: black;
+    font-size: 1.2em;
+    background-color: lightcoral;
     color: white;
     margin-right: 1155px;
+}
+.scheduleimg2{
+    position: relative;
+    top: -760px;
+    left: 900px;
+}
+.schedule2{
+    position: relative;
+    top: -770px;
+    left: 900px;
+    text-align: center; 
+    font-size: 1.2em;
+    background-color: lightcoral;
+    color: white;
+    margin-right: 1015px;
 }
 .mbtiPosition{
     width:100%;
