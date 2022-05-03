@@ -225,7 +225,7 @@
 }
 .planPosition > span:first-child{
     position: relative;
-    top: 90px;
+    top: -200px;
     left: 690px;
     font-size: 1.5em;
     background-color: black;
@@ -235,7 +235,7 @@
 }
 .planPosition>div{
     position: relative;
-    top: 90px;
+    top: -200px;
     text-align: center;
     font-size: 1.2em;
     margin-top: 20px;
@@ -247,6 +247,11 @@
 }
 .sqlimg{
     position: relative;
-    left: 20px;
-    top: 50px;
+    left: -130px;
+    top: 150px;
+}
+.sqlimg2{
+    position: relative;
+    left: 480px;
+    top: 150px;
 }
