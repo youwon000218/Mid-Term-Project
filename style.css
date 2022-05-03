@@ -218,3 +218,35 @@
     background-color:white;
     padding: 20px;
 }
+.planPosition{
+    width:100%;
+    height: 600px;
+    background-color: rgb(253, 228, 232);
+}
+.planPosition > span:first-child{
+    position: relative;
+    top: 90px;
+    left: 690px;
+    font-size: 1.5em;
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.planPosition>div{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 490px;
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.sqlimg{
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
